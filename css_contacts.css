@@ -1,0 +1,101 @@
+*
+{
+    color: black;
+    font-family: "Roboto", sans-serif;
+    
+    
+}
+body
+{
+    width:66vw;
+    background: rgba(200,200,200,1);
+}
+
+.header
+{
+    width:100%;
+    height: 15vh;
+    margin-top:-3vh;
+    margin-left:-3vh;
+
+    position: fixed;
+    background-color: rgb(75, 70, 140);
+}
+
+.navigation
+{
+        
+        display:flex;
+        
+        justify-content: center;
+        padding:3vh;
+        
+
+}
+.links
+{
+    display: flex;
+    flex-direction: row;
+    
+    gap:3vw;
+}
+
+.links a{
+    text-decoration: none;
+    
+}
+
+.header_links
+{
+    list-style: none;
+    text-align: center;
+    font-size:200%
+}
+
+.part4
+{
+
+    height: 50vh;
+    padding-top: 20vh;
+}
+
+.contacts
+{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    margin-left: 15vw;
+    height: 40vh;
+    padding-left: 10vh;
+    width: 60vw;
+}
+
+.contacts h3
+{
+    
+    font-size: 200%;
+}
+
+.contacts .email
+{
+    margin-top: -3vh
+}
+
+.links_contacts
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vh;
+    margin-left: -30vh;
+}
+
+.links_contacts a
+{
+    text-decoration: none;
+    font-size:200%;
+    border: 2px solid black;
+    padding:10px
+    
+}
+
